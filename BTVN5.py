@@ -64,7 +64,7 @@ while True:
                     continue
                     
                 parts = cleaned_prod.split("-")
-                if len(parts) < 4:
+                if len(parts) != 4:
                     continue
                     
                 product_type = parts[0]
@@ -98,7 +98,7 @@ while True:
                     continue
                     
                 parts = cleaned_prod.split("-")
-                if len(parts) < 4:
+                if len(parts) != 4:
                     continue
                     
                 serial = parts[3]
